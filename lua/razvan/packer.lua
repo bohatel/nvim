@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
 	end,
   })
   use('nvim-treesitter/playground')
+  use("nvim-treesitter/nvim-treesitter-context");
 
 --  use { 'EdenEast/nightfox.nvim' }
   use({
@@ -47,6 +48,7 @@ return require('packer').startup(function(use)
 		-- Autocompletion
 		{'hrsh7th/nvim-cmp'},         -- Required
 		{'hrsh7th/cmp-nvim-lsp'},     -- Required
+        {'hrsh7th/cmp-nvim-lsp-signature-help'},
 		{'hrsh7th/cmp-buffer'},       -- Optional
 		{'hrsh7th/cmp-path'},         -- Optional
 		{'saadparwaiz1/cmp_luasnip'}, -- Optional
@@ -59,4 +61,6 @@ return require('packer').startup(function(use)
   })
 
   use("simrat39/rust-tools.nvim")
+
+  use('lukas-reineke/indent-blankline.nvim')
 end)
