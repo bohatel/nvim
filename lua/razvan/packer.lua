@@ -65,4 +65,6 @@ return require('packer').startup(function(use)
   use('lukas-reineke/indent-blankline.nvim')
   use('RRethy/vim-illuminate')
   use('voldikss/vim-floaterm')
+
+  use('puremourning/vimspector')
 end)

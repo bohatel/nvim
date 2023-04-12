@@ -214,6 +214,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/razvan/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/home/razvan/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://github.com/puremourning/vimspector"
   }
 }
 
